@@ -1,5 +1,6 @@
 import pytest
-from endlesscreatures.domain.components.energy import EnergyComponent, EnergyUser
+from endlesscreatures.domain.components.energy import EnergyComponent
+from endlesscreatures.domain.protocols.energy_user import EnergyUser
 
 
 class MockEnergyUser(EnergyUser):
