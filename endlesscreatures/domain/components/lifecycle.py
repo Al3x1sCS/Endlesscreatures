@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 from typing import Type
 from endlesscreatures.domain.protocols.lifecycle_user import LifeCycleUser
 
